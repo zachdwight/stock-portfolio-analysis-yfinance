@@ -19,7 +19,7 @@ Before running the script, ensure you have the following Python libraries instal
 ## How to Use
 - Save the Code: Save the provided Python code as a .py file (e.g., portfolio_analyzer.py).
 
-- Customize Your Portfolio: Open the portfolio_analyzer.py file and modify the portfolio_input dictionary with your actual stock holdings (ticker symbol and number of shares owned):
+- Customize Your Portfolio: Open the stock_portfolio_summarizer.py file and modify the portfolio_input dictionary with your actual stock holdings (ticker symbol and number of shares owned):
 
 - Replace 'AAPL', 'MSFT', 'JPM' with your desired stock tickers and update SharesOwned accordingly.
 
