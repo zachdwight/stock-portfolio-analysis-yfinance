@@ -3,14 +3,15 @@
 This Python script allows you to analyze your stock portfolio, calculate key metrics like Beta and Dividend Yield, and visualize allocations and future projections. It fetches real-time stock data using the yfinance library and generates a comprehensive PDF report.
 
 ## Features
-Portfolio Summary: Displays total portfolio value, weighted average Beta, and weighted average Dividend Yield.
-Individual Holdings Detail: Provides a breakdown of each stock's shares owned, current price, total value, portfolio weight, Beta, market capitalization, and dividend yield.
-Portfolio Allocation by Value Plot: A bar chart showing the value distribution across different stock tickers.
-Individual Stock Dividend Yields Plot: A bar chart comparing individual stock dividend yields against the portfolio's average weighted dividend yield.
-Portfolio Allocation by Market Pie Chart: Visualizes the portfolio's distribution across different global markets (e.g., 'us_market', 'sg_market').
-Stock Beta Distribution Plot: A histogram showing the distribution of individual stock Betas within your portfolio.
-10-Year Portfolio Value Projection Plot: Projects your portfolio's value over the next decade, assuming a 10% annual growth rate.
-PDF Report Generation: All summary text and plots are compiled into a single, multi-page PDF document for easy sharing and review.
+- Portfolio Summary: Displays total portfolio value, weighted average Beta, and weighted average Dividend Yield.
+- Individual Holdings Detail: Provides a breakdown of each stock's shares owned, current price, total value, portfolio weight, Beta, market capitalization, and dividend yield.
+- Portfolio Allocation by Value Plot: A bar chart showing the value distribution across different stock tickers.
+- Individual Stock Dividend Yields Plot: A bar chart comparing individual stock dividend yields against the portfolio's average weighted dividend yield.
+- Portfolio Allocation by Market Pie Chart: Visualizes the portfolio's distribution across different global markets (e.g., 'us_market', 'sg_market').
+- Stock Beta Distribution Plot: A histogram showing the distribution of individual stock Betas within your portfolio.
+- 10-Year Portfolio Value Projection Plot: Projects your portfolio's value over the next decade, assuming a 10% annual growth rate.
+
+*PDF Report Generation: All summary text and plots are compiled into a single, multi-page PDF document for easy sharing and review.
 
 ## Prerequisites
 Before running the script, ensure you have the following Python libraries installed. You can install them using pip:
