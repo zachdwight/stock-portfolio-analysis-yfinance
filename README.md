@@ -1,6 +1,6 @@
 # Portfolio Analysis and Projection Tool
 
-This Python script allows you to analyze your stock portfolio, calculate key metrics like Beta and Dividend Yield, and visualize allocations and future projections. It fetches real-time stock data using the ```yfinance``` library and generates a comprehensive PDF report.
+This Python script allows you to analyze your stock portfolio, calculate key metrics like Beta and Dividend Yield, and visualize allocations and future projections. It fetches real-time stock data using the ```yfinance``` library and generates a comprehensive PDF report.  Makes for a good boilerplate for MBA/finance projects.  Have fun and always consult a real financial expert for real world financial decisions.
 
 ## Features
 - **Portfolio Summary**: Displays total portfolio value, weighted average Beta, and weighted average Dividend Yield.
