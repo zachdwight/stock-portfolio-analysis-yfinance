@@ -1,6 +1,12 @@
-# Portfolio Analysis and Projection Tool
+# Portfolio Analysis and Projection Tool with yfinance + Google Gemini
 
 This Python script allows you to analyze your stock portfolio, calculate key metrics like Beta and Dividend Yield, and visualize allocations and future projections. It fetches real-time stock data using the ```yfinance``` library and generates a comprehensive PDF report.  Makes for a good boilerplate for MBA/finance projects.  Have fun and always consult a real financial expert for real world financial decisions.
+
+- We've enhanced the stock portfolio analysis script by integrating the Google Gemini API. This powerful addition allows the script to leverage Google's advanced large language models (LLMs) to provide an intelligent, concise summary of your portfolio's health.
+
+- Instead of just presenting raw data, the Gemini API processes key portfolio metrics and holdings information to generate a narrative overview. This AI-powered summary offers quick, qualitative insights into aspects like diversification, risk profile (based on beta), and potential income from dividends, giving you a more holistic understanding of your investments.
+
+- You'll see this summary seamlessly integrated into the text output and the final PDF report, providing an extra layer of valuable analysis.
 
 ## Features
 - **Portfolio Summary**: Displays total portfolio value, weighted average Beta, and weighted average Dividend Yield.
